@@ -22,16 +22,16 @@ http http://localhost:8280/test/list2
 
 
 --- redis key 직접 컨트롤
-http http://localhost:8280/test/save3\?name\=kimkook
-http http://localhost:8280/test/name3\?name\=kimkook
+http http://localhost:8280/test/save3\?name\=kimkook  
+http http://localhost:8280/test/name3\?name\=kimkook  
 
-http http://localhost:8280/test/deleteRedisKey\?name\=kimkook
+http http://localhost:8280/test/deleteRedisKey\?name\=kimkook  
 
-http http://localhost:8280/test/list3\?name\=kim
+http http://localhost:8280/test/list3\?name\=kim  
 
 
 -- redis pubsub test  
-http http://localhost:8280/pubsub/send\?message\=hello
+http http://localhost:8280/pubsub/send\?message\=hello  
 
 RedisMessageSubscriber 의 onMessage 에서 메세지가 오는지 확인  
 
