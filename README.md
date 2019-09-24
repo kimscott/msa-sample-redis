@@ -38,3 +38,7 @@ RedisMessageSubscriber 의 onMessage 에서 메세지가 오는지 확인
 -- redis-cli에서 messageQueue 채널을 구독하여, 메시지가 오는지 확인   
 > pubsub channels            :  채널 목록을 확인  
 > subscribe messageQueue  : messageQueue 채널을 구독  
+
+
+
+## add branch
